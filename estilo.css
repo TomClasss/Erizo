@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #erizo {
+    cursor: pointer;
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+    transition: transform 0.2s;
+  }
+  
+  #erizo:hover {
+    transform: scale(1.2);
+  }
+  
